@@ -1,0 +1,370 @@
+{
+  "id": "379e8b88-4b36-42a5-ab3f-5e774aa2cb11",
+  "version": "2.0",
+  "name": "lab6",
+  "url": "https://sch4sol.schools.by",
+  "tests": [{
+    "id": "3f6e9fb1-c85d-4aec-8b38-0871110e05fb",
+    "name": "Регистрация по пригласительному коду",
+    "commands": [{
+      "id": "51ffd92f-70bf-4749-aa74-404cb6a2be49",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aacb8741-db83-42bd-90d0-9bcdcb7a7ec2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1027x547",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "34bb5da0-fdba-4535-b355-d990763be9f2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sch_top_menu:nth-child(2) > li:nth-child(1) span",
+      "targets": [
+        ["css=.sch_top_menu:nth-child(2) > li:nth-child(1) span", "css:finder"],
+        ["xpath=//div[@id='page_layout']/div[2]/div/div/form/ul/li/a/span", "xpath:idRelative"],
+        ["xpath=//li/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Регистрация по пригласительному коду')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5ab4d163-14d6-417a-914d-2120127c962d",
+      "comment": "",
+      "command": "click",
+      "target": "id=registration_code",
+      "targets": [
+        ["id=registration_code", "id"],
+        ["name=invitation_code", "name"],
+        ["css=#registration_code", "css:finder"],
+        ["xpath=//input[@id='registration_code']", "xpath:attributes"],
+        ["xpath=//form[@id='registration_code_form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cff215be-1ad0-4f94-8f0f-74ad461a9f97",
+      "comment": "",
+      "command": "type",
+      "target": "id=registration_code",
+      "targets": [
+        ["id=registration_code", "id"],
+        ["name=invitation_code", "name"],
+        ["css=#registration_code", "css:finder"],
+        ["xpath=//input[@id='registration_code']", "xpath:attributes"],
+        ["xpath=//form[@id='registration_code_form']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/form/div[2]/input", "xpath:position"]
+      ],
+      "value": "111"
+    }, {
+      "id": "642e40c7-d9d0-45e0-9aa8-9177d5426379",
+      "comment": "",
+      "command": "click",
+      "target": "id=registration_code_button",
+      "targets": [
+        ["id=registration_code_button", "id"],
+        ["css=#registration_code_button", "css:finder"],
+        ["xpath=//input[@id='registration_code_button']", "xpath:attributes"],
+        ["xpath=//form[@id='registration_code_form']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/form/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2546b2f8-a716-4c8a-aab6-ce1f72997b6e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=registration_code_button",
+      "targets": [
+        ["id=registration_code_button", "id"],
+        ["css=#registration_code_button", "css:finder"],
+        ["xpath=//input[@id='registration_code_button']", "xpath:attributes"],
+        ["xpath=//form[@id='registration_code_form']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/form/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "436b991b-5998-4987-945f-20a083c4488d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=registration_code_button",
+      "targets": [
+        ["id=registration_code_button", "id"],
+        ["css=#registration_code_button", "css:finder"],
+        ["xpath=//input[@id='registration_code_button']", "xpath:attributes"],
+        ["xpath=//form[@id='registration_code_form']/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/form/div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d511fa1-84ac-4985-8519-7da11820ea2e",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,361.8835754394531)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2ed0241e-960b-4773-b941-987a0f1733f2",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "10"
+    }]
+  }, {
+    "id": "9bf94863-d050-4adc-9390-33b23c233793",
+    "name": "Версия для слабовидящих",
+    "commands": [{
+      "id": "102d80ec-f7d7-4a4e-9d65-c732738064b1",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3bc6358c-f359-40bb-a75c-8a2cf3d3336d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1027x547",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "339619fe-7ae1-49c0-8dc2-f410de3d65ab",
+      "comment": "",
+      "command": "click",
+      "target": "css=#js-finevision-trigger > img",
+      "targets": [
+        ["css=#js-finevision-trigger > img", "css:finder"],
+        ["xpath=//img[@alt='Версия для слабовидящих']", "xpath:img"],
+        ["xpath=//a[@id='js-finevision-trigger']/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c00e12a3-e4e0-40a0-8eb3-ad540b842892",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item:nth-child(5) .control",
+      "targets": [
+        ["css=.item:nth-child(5) .control", "css:finder"],
+        ["xpath=//a[@onclick='FINEVISION.deactivate()']", "xpath:attributes"],
+        ["xpath=//div[@id='js-finevision-settings']/div/div[5]/div[2]/a", "xpath:idRelative"],
+        ["xpath=//div[5]/div[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5b6c954-c431-4428-8ad6-471e529c8b0e",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "10"
+    }]
+  }, {
+    "id": "6bec0650-9205-41e8-8cb1-719e705f92b9",
+    "name": "Вход",
+    "commands": [{
+      "id": "6beb2858-24c0-4e1b-ba49-937772099ff3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6d21536e-28f2-4f25-b177-e74791859559",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1027x547",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b131619a-544c-419f-8c1f-11fc32111b2c",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sch_login_lnk > span",
+      "targets": [
+        ["css=#sch_login_lnk > span", "css:finder"],
+        ["xpath=//a[@id='sch_login_lnk']/span", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Войти')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d0ef1213-9383-49b6-9b22-8062f617f209",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.line:nth-child(1) > .text", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='sch_login_box']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6cbca082-bf27-43bd-83cb-1ab723dc7229",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.line:nth-child(1) > .text", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div[@id='sch_login_box']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "111"
+    }, {
+      "id": "2f765a4a-beb7-41e1-add2-39ebd1d783c2",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.line:nth-child(2) > .text", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='sch_login_box']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34a75ac5-5262-4ae7-b3a0-b5830af50c88",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=.line:nth-child(2) > .text", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//div[@id='sch_login_box']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "75e0e2d7-c7af-4e8e-8acc-da944b42f046",
+      "comment": "",
+      "command": "click",
+      "target": "css=.button_gray",
+      "targets": [
+        ["css=.button_gray", "css:finder"],
+        ["xpath=//input[@value='Войти']", "xpath:attributes"],
+        ["xpath=//div[@id='sch_login_box']/div/div[4]/input[2]", "xpath:idRelative"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25f69689-ddd8-43cc-aed9-0e2a3a421299",
+      "comment": "",
+      "command": "pause",
+      "target": "10",
+      "targets": [],
+      "value": "10"
+    }]
+  }, {
+    "id": "eea8ff57-5cc5-4060-8e3d-9122ad37b97b",
+    "name": "Справка о сайте",
+    "commands": [{
+      "id": "379ec463-220e-4072-940d-46c0c60b16b6",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e388cc7b-422f-48a9-9594-7dc3d12f5172",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1027x547",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f77cfc43-82a5-4490-bf77-26929a0faade",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Справка о сайте",
+      "targets": [
+        ["linkText=Справка о сайте", "linkText"],
+        ["css=.rc_menu_item > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Справка о сайте')]", "xpath:link"],
+        ["xpath=//div[@id='page_layout']/div[4]/div[2]/div/ul[3]/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/brief')]", "xpath:href"],
+        ["xpath=//ul[3]/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Справка о сайте')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a43e946-2937-424d-85b7-495fe469a2b9",
+      "comment": "",
+      "command": "pause",
+      "target": "10",
+      "targets": [],
+      "value": "10"
+    }]
+  }, {
+    "id": "02da2d4f-2b7a-4321-8cac-04caaa7dfd6c",
+    "name": "Образец заявления на временное отсутствие",
+    "commands": [{
+      "id": "102289fe-b6b3-4974-8199-4d1f388f4547",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "19ff0196-51aa-499d-89d8-11724d6e9784",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1027x547",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ec9f412-a24c-4b83-90b8-49bf5a51b034",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Образец заявления на временное отсутствие в школе",
+      "targets": [
+        ["linkText=Образец заявления на временное отсутствие в школе", "linkText"],
+        ["css=.sch_menu_box2 a", "css:finder"],
+        ["xpath=//a[contains(text(),'Образец заявления на временное отсутствие в школе')]", "xpath:link"],
+        ["xpath=//div[@id='page_layout']/div[4]/div[2]/div/ul[2]/li/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/pages/576777876125')]", "xpath:href"],
+        ["xpath=//ul[2]/li/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Образец заявления на временное отсутствие в школе')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "caab99aa-32f8-4808-8525-ccaeae60fae3",
+      "comment": "",
+      "command": "click",
+      "target": "css=p img",
+      "targets": [
+        ["css=p img", "css:finder"],
+        ["xpath=//img[contains(@src,'https://cut-photo.ru/instruments/cut_photo/images/download_btn.png')]", "xpath:img"],
+        ["xpath=//div[@id='page_layout']/div[4]/div[2]/div[2]/div/div/div[2]/div/div[3]/article/p[5]/a/img", "xpath:idRelative"],
+        ["xpath=//p[5]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1009fa0-62f7-40ce-a013-09fd3c1cd28c",
+      "comment": "",
+      "command": "pause",
+      "target": "10",
+      "targets": [],
+      "value": "10"
+    }]
+  }],
+  "suites": [{
+    "id": "cf410453-3cf9-44c4-9058-a381427292fe",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://sch4sol.schools.by/"],
+  "plugins": []
+}
