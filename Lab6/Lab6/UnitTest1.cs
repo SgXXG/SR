@@ -78,7 +78,6 @@ namespace Lab6
                 for (int j = 1; j <= 3; j++)
                 {
                     int number_num = rand.Next(0, numbers.Length - 1);
-
                     login += numbers[number_num];
                 }
 
@@ -104,7 +103,6 @@ namespace Lab6
                 entryBtn.Click();
                 System.Threading.Thread.Sleep(1000);
             }
-
         }
     }
 }
