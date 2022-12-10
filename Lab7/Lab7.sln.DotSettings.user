@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=d265ad6c_002D4f6e_002D41a4_002Da442_002D60f3c16df90c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddGroup" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;MSTest::44DA5AC8-4A67-42A1-B6A4-26E940DF13DE::net6.0::Lab7.UnitTest1.AddGroup&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::44DA5AC8-4A67-42A1-B6A4-26E940DF13DE::net6.0::Lab7.UnitTest1.CheckDate&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::44DA5AC8-4A67-42A1-B6A4-26E940DF13DE::net6.0::Lab7.UnitTest1.CheckNextDate&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::44DA5AC8-4A67-42A1-B6A4-26E940DF13DE::net6.0::Lab7.UnitTest1.CheckCompleteSchedule&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::44DA5AC8-4A67-42A1-B6A4-26E940DF13DE::net6.0::Lab7.UnitTest1.CheckSubgroupOptionsCount&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;MSTest::44DA5AC8-4A67-42A1-B6A4-26E940DF13DE::net6.0::Lab7.UnitTest1.OpenExamsPage&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
